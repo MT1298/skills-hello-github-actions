@@ -5,8 +5,11 @@ on:
 permissions:
   pull-requests: write
 jobs:
-  welcome: 
+
+  welcome:
+    name: Post welcome comment  
     runs-on: ubuntu-latest
     steps: 
-       - name: example step
-         run: echo "welcomme to the repository!"
+       - name: Post welcome new changes
+         run: echo "Welcome to the repository!"
+
