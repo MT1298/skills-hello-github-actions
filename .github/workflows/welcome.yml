@@ -9,5 +9,5 @@ jobs:
     name: Post welcome comment  
     runs-on: ubuntu-latest
     steps: 
-       - name: Post welcome comment
+       - name: Post welcome new changes
          run: echo "Welcome to the repository!"
