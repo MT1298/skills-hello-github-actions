@@ -4,9 +4,3 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
-jobs:
-  welcome: 
-    runs-on: ubuntu-latest
-    steps: 
-       - name: example step
-         run: echo "welcomme to the repository!"
